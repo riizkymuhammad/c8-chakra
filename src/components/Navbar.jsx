@@ -8,8 +8,8 @@ export default function Navbar() {
   return (
     <>
       <Grid display={'flex'}>
-        <ColorModeSwitcher justifyContent="flex-end" mr={'5'} />
-        <Grid display={'flex'} flexDirection={'row'}>
+        <ColorModeSwitcher justifyContent={"flex-end"} mr={'5'} />
+        <Grid display={'flex'} flexDirection={'row'} mt={'1'} >
           <GridItem mr={'5'}>
             <Link to="/">Home</Link>
           </GridItem>
